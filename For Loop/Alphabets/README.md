@@ -1,3 +1,3 @@
 ## Code Preview
 
-![code-preview]()
+![code-preview](https://github.com/Madhav703/CPP/blob/main/For%20Loop/Alphabets/alphabets.png)
