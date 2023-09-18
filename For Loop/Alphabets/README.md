@@ -1,3 +1,3 @@
 ## Code Preview
 
-![code-preview](https://github.com/Madhav703/CPP/blob/main/For%20Loop/Alphabets/alphabets.png)
+![code-preview](https://cdn.discordapp.com/attachments/1017685916770381896/1153357520019136522/alphabets.png)
