@@ -1,158 +1,32 @@
-// #include <iostream>
-// using namespace std;
+// Take 10 numbers as input from the user and using nested-if tell which is the largest number among those.///
 
-// int main() {
-//     int a, b, c, d, largest;
-
-//     cout << "Enter four numbers: ";
-//     cin >> a >> b >> c >> d;
-
-//     if (a > b) {
-//         largest = a;
-//     } else {
-//         largest = b;
-//     }
-
-//     if (largest < c) {
-//         largest = c;
-//     }
-
-//     if (largest < d) {
-//         largest = d;
-//     }
-
-//     cout << "The largest number is: " << largest << endl;
-
-//     return 0;
-// }
-
-// #include <iostream>
-// using namespace std;
-
-// int main() {
-
-//     int a, b, c, d, bigger;
-
-//     cout << "Enter 1st number: ";
-//     cin >> a;
-
-//     cout << "Enter 2nd number: ";
-//     cin >> b;
-
-//     cout << "Enter 3rd number: ";
-//     cin >> c;
-
-//     cout << "Enter 4th number: ";
-//     cin >> d;
-
-//     if(a<b) {
-//         bigger=b;
-//     }
-//     else {
-//         bigger = a;
-//     }
-
-//     if(bigger<c) {
-//         bigger = c;
-//     }
-
-//     if(bigger<d) {
-//         bigger = d;
-//     }
-
-//     cout << bigger << " is the largest number!";
-
-
-// }
-
-
-
-// #include <iostream>
-// using namespace std;
-
-// int main() {
-
-//     int a, b, c, d, e, bigger;
-
-//     cout << "Enter 1st number: ";
-//     cin >> a;
-
-//     cout << "Enter 2nd number: ";
-//     cin >> b;
-
-//     cout << "Enter 3rd number: ";
-//     cin >> c;
-
-//     cout << "Enter 4th number: ";
-//     cin >> d;
-
-//     cout << "Enter 5th number: ";
-//     cin >> e;
-
-//     if(a<b){
-//         bigger = b;
-//     }
-//     else {
-//         bigger = a;
-//     }
-
-//     if(bigger<c){
-//         bigger = c;
-//     }
-
-//     if(bigger<d) {
-//         bigger = d;
-//     }
-
-//     if(bigger<e) {
-//         bigger = e;
-//     }
-
-
-//     cout << bigger << " is the bigger number!";
-// }
 
 #include <iostream>
 using namespace std;
 
 int main() {
 
-    int a, b, c, d, e, f, bigger;
+    int a, b, c, d, e, f, g, h, i, j, bigger;
 
-    cout << "Enter 1st number: ";
-    cin >> a;
+    cout << "Enter 10 numbers:\n";
+    cin >> a >> b >> c >> d >> e >> f >> g >> h >> i >> j;
 
-    cout << "Enter 2nd number: ";
-    cin >> b;
-
-    cout << "Enter 3rd number: ";
-    cin >> c;
-
-    cout << "Enter 4th number: ";
-    cin >> d;
-
-    cout << "Enter 5th number: ";
-    cin >> e;
-
-    cout << "Enter 6th number: ";
-    cin >> f;
-
-    if(a<b) {
-        bigger = b;
+    if(a>b) {
+        bigger = a;
     }
     else {
-        bigger = a;
+        bigger = b;
     }
 
     if(bigger<c) {
         bigger = c;
     }
-    
+
     if(bigger<d) {
         bigger = d;
     }
 
-    if (bigger<e) {
+    if(bigger<e) {
         bigger = e;
     }
 
@@ -160,32 +34,22 @@ int main() {
         bigger = f;
     }
 
-    cout <<  bigger << " is the biggest number!";
+    if(bigger<g) {
+        bigger = g;
+    }
+
+    if(bigger<h) {
+        bigger = h;
+    }
+
+    if(bigger<i) {
+        bigger = i;
+    }
+
+    if(bigger<j) {
+        bigger = j;
+    }
+
+    cout << bigger << " is the biggest number!";
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
